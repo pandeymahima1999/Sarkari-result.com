@@ -3,99 +3,187 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sarkari Result : Latest Jobs, Admit Card, Results 2026</title>
+    <title>Sarkari Job Portal : Latest Jobs, Admit Card, Results, Syllabus 2026</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body { font-family: Arial, sans-serif; background-color: #f2f2f2; }
         .sr-header { background-color: #990000; }
-        .sr-box-header { background-color: #990000; color: white; padding: 10px; text-align: center; font-weight: bold; font-size: 1.2rem; border-top-left-radius: 8px; border-top-right-radius: 8px; }
-        .sr-link { display: block; padding: 8px 12px; color: #0000ee; text-decoration: none; border-bottom: 1px solid #ddd; font-size: 0.95rem; }
+        .sr-box-header { background-color: #990000; color: white; padding: 8px 12px; text-align: center; font-weight: bold; font-size: 1.15rem; border-top-left-radius: 6px; border-top-right-radius: 6px; }
+        .sr-link { display: block; padding: 7px 10px; color: #0000ee; text-decoration: none; border-bottom: 1px solid #e5e7eb; font-size: 0.9rem; }
         .sr-link:hover { color: #cc0000; text-decoration: underline; background-color: #f9f9f9; }
-        marquee { background: #000; color: #fff; padding: 5px; font-weight: bold; font-size: 15px; }
-        marquee a { color: #fff; text-decoration: none; margin-right: 30px; }
-        marquee a:hover { color: #ff0; }
+        .sr-more { display: block; text-align: right; padding: 6px 10px; font-weight: bold; font-size: 0.85rem; color: #cc0000; }
+        .sr-more:hover { text-decoration: underline; }
+        marquee { background: #000; color: #fff; padding: 6px; font-weight: bold; font-size: 14px; }
+        marquee a { color: #fff; text-decoration: none; margin-right: 25px; }
+        marquee a:hover { color: #facc15; }
     </style>
 </head>
-<body>
+<body class="flex flex-col min-h-screen">
 
-    <!-- Header -->
-    <header class="sr-header text-white text-center py-6 shadow-md">
-        <h1 class="text-4xl md:text-5xl font-extrabold tracking-wide">SARKARI JOB PORTAL</h1>
-        <p class="mt-2 text-sm md:text-base font-medium">WWW.SARKARIJOBPORTAL.COM</p>
+    <!-- Top Header -->
+    <header class="sr-header text-white text-center py-5 shadow-md">
+        <h1 class="text-3xl md:text-5xl font-extrabold tracking-wide">SARKARI JOB PORTAL</h1>
+        <p class="mt-1 text-xs md:text-sm font-medium tracking-wider">WWW.SARKARIJOBPORTAL.COM</p>
     </header>
 
-    <!-- Navigation -->
-    <nav class="bg-black text-white text-center py-2 flex flex-wrap justify-center gap-4 text-sm md:text-base font-bold">
+    <!-- Main Navigation Bar -->
+    <nav class="bg-black text-white text-center py-2.5 flex flex-wrap justify-center gap-3 text-xs md:text-sm font-bold shadow">
         <a href="index.html" class="hover:text-yellow-400">Home</a> |
-        <a href="#" class="hover:text-yellow-400">Latest Jobs</a> |
-        <a href="#" class="hover:text-yellow-400">Results</a> |
-        <a href="#" class="hover:text-yellow-400">Admit Card</a> |
-        <a href="#" class="hover:text-yellow-400">Syllabus</a>
+        <a href="#latest-jobs" class="hover:text-yellow-400">Latest Jobs</a> |
+        <a href="#results" class="hover:text-yellow-400">Results</a> |
+        <a href="#admit-cards" class="hover:text-yellow-400">Admit Card</a> |
+        <a href="#answer-keys" class="hover:text-yellow-400">Answer Key</a> |
+        <a href="#syllabus" class="hover:text-yellow-400">Syllabus</a> |
+        <a href="#admission" class="hover:text-yellow-400">Admission</a> |
+        <a href="#important" class="hover:text-yellow-400">Important</a>
     </nav>
 
-    <!-- Marquee Updates -->
+    <!-- Marquee Flash Updates -->
     <marquee onmouseover="this.stop();" onmouseout="this.start();">
-        <a href="job-detail.html">UPSSSC Lekhpal 2026 Apply Online</a> |
-        <a href="job-detail.html">UPPSC PCS / ACF / RFO Online Form</a> |
-        <a href="#">JE (Polytechnic) UP Admissions 2026</a> |
-        <a href="#">UPPCS Computer Science Exam Date Out</a>
+        <a href="job-detail.html">🔥 UPSSSC Lekhpal 2026 Apply Online</a> |
+        <a href="job-detail.html">🔥 UPPSC PCS / ACF / RFO Online Form 2026</a> |
+        <a href="#">🔥 JE (Polytechnic) UP Admissions Counseling Schedule</a> |
+        <a href="#">🔥 UPPCS Computer Science Paper Official Answer Key</a> |
+        <a href="#">🔥 UP Scholarship Online Status & Correction 2026</a>
     </marquee>
 
     <!-- Main Content Grid -->
-    <main class="max-w-7xl mx-auto px-2 py-6">
+    <main class="max-w-7xl mx-auto px-3 py-6 flex-grow">
         
-        <!-- Top Flash Links (4 boxes) -->
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-            <a href="job-detail.html" class="bg-blue-100 border border-blue-300 text-center p-3 rounded font-bold text-blue-800 hover:bg-blue-200">UPSSSC Lekhpal<br>Apply Now</a>
-            <a href="#" class="bg-green-100 border border-green-300 text-center p-3 rounded font-bold text-green-800 hover:bg-green-200">UPPSC PCS 2026<br>Notification</a>
-            <a href="#" class="bg-orange-100 border border-orange-300 text-center p-3 rounded font-bold text-orange-800 hover:bg-orange-200">JE (Polytechnic) UP<br>Admit Card</a>
-            <a href="#" class="bg-purple-100 border border-purple-300 text-center p-3 rounded font-bold text-purple-800 hover:bg-purple-200">UPPCS CS Paper<br>Answer Key</a>
+        <!-- Top Featured Colored Quick Boxes -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
+            <a href="job-detail.html" class="bg-red-50 border border-red-300 text-center p-3 rounded font-bold text-red-800 hover:bg-red-100 shadow-sm text-sm">UPSSSC Lekhpal<br><span class="text-xs font-normal">8085 Posts Apply</span></a>
+            <a href="job-detail.html" class="bg-blue-50 border border-blue-300 text-center p-3 rounded font-bold text-blue-800 hover:bg-blue-100 shadow-sm text-sm">UPPSC PCS 2026<br><span class="text-xs font-normal">Pre Exam Form</span></a>
+            <a href="#" class="bg-green-50 border border-green-300 text-center p-3 rounded font-bold text-green-800 hover:bg-green-100 shadow-sm text-sm">JE (Polytechnic) UP<br><span class="text-xs font-normal">Entrance Test Result</span></a>
+            <a href="#" class="bg-purple-50 border border-purple-300 text-center p-3 rounded font-bold text-purple-800 hover:bg-purple-100 shadow-sm text-sm">UPPCS CS Paper<br><span class="text-xs font-normal">Download Paper & Sol</span></a>
         </div>
 
-        <!-- 3 Columns Layout -->
-        <div class="grid md:grid-cols-3 gap-6">
+        <!-- ROW 1: Result | Admit Card | Latest Jobs -->
+        <div class="grid md:grid-cols-3 gap-6 mb-8">
             
             <!-- Result Box -->
-            <div class="bg-white rounded-lg shadow-sm border border-gray-300">
+            <div id="results" class="bg-white rounded shadow-sm border border-gray-300">
                 <div class="sr-box-header">Result</div>
-                <div class="p-2">
+                <div class="p-1">
                     <a href="#" class="sr-link">UP Police Constable Final Result 2026</a>
-                    <a href="#" class="sr-link">SSC CGL Tier 1 Result</a>
-                    <a href="#" class="sr-link">Railway RRB NTPC Result</a>
-                    <a href="#" class="sr-link">UPSC Civil Services Pre Result</a>
-                    <a href="#" class="sr-link">UP Board Class 10th, 12th Result</a>
+                    <a href="#" class="sr-link">SSC CGL Tier 1 Marks / Scorecard</a>
+                    <a href="#" class="sr-link">Railway RRB NTPC Level 5 Result</a>
+                    <a href="#" class="sr-link">UPSC Civil Services (IAS) Pre Result</a>
+                    <a href="#" class="sr-link">UP Board Class 10th & 12th Scrutiny Result</a>
+                    <a href="#" class="sr-link">NTA NEET UG Final Revised Result</a>
+                    <a href="#" class="sr-more">View More Results >></a>
                 </div>
             </div>
 
             <!-- Admit Card Box -->
-            <div class="bg-white rounded-lg shadow-sm border border-gray-300">
+            <div id="admit-cards" class="bg-white rounded shadow-sm border border-gray-300">
                 <div class="sr-box-header">Admit Card</div>
-                <div class="p-2">
-                    <a href="#" class="sr-link">JE (Polytechnic) UP Entrance Admit Card</a>
-                    <a href="#" class="sr-link">UPSSSC Lekhpal Exam City / Date</a>
-                    <a href="#" class="sr-link">UPPSC PCS Pre Admit Card 2026</a>
-                    <a href="#" class="sr-link">SSC CHSL Tier 1 Admit Card</a>
-                    <a href="#" class="sr-link">CTET July 2026 Admit Card</a>
+                <div class="p-1">
+                    <a href="#" class="sr-link">JE (Polytechnic) UP Entrance Admit Card 2026</a>
+                    <a href="#" class="sr-link">UPSSSC Lekhpal Mains Exam City Slip</a>
+                    <a href="#" class="sr-link">UPPSC PCS Combined State Pre Admit Card</a>
+                    <a href="#" class="sr-link">SSC CHSL 10+2 Tier 1 Admit Card</a>
+                    <a href="#" class="sr-link">CTET July Exam Hall Ticket</a>
+                    <a href="#" class="sr-link">Air Force Agniveer Vayu Admit Card</a>
+                    <a href="#" class="sr-more">View More Admit Cards >></a>
                 </div>
             </div>
 
             <!-- Latest Jobs Box -->
-            <div class="bg-white rounded-lg shadow-sm border border-gray-300">
+            <div id="latest-jobs" class="bg-white rounded shadow-sm border border-gray-300">
                 <div class="sr-box-header">Latest Jobs</div>
-                <div class="p-2">
+                <div class="p-1">
                     <a href="job-detail.html" class="sr-link">UPSSSC Lekhpal 2026 Online Form</a>
                     <a href="job-detail.html" class="sr-link">UPPSC PCS / ACF / RFO Online Form</a>
-                    <a href="#" class="sr-link">SSC GD Constable 2026 Apply Online</a>
-                    <a href="#" class="sr-link">IBPS RRB XIII Online Form</a>
-                    <a href="#" class="sr-link">Indian Post GDS Recruitment</a>
+                    <a href="#" class="sr-link">SSC GD Constable 2026 Online Application</a>
+                    <a href="#" class="sr-link">IBPS RRB XIII Office Assistant Online Form</a>
+                    <a href="#" class="sr-link">India Post Gramin Dak Sevak (GDS) Online Form</a>
+                    <a href="#" class="sr-link">Navy Agniveer SSR / MR Recruitment 2026</a>
+                    <a href="#" class="sr-more">View More Latest Jobs >></a>
                 </div>
             </div>
 
         </div>
+
+        <!-- ROW 2: Answer Key | Syllabus | Admission -->
+        <div class="grid md:grid-cols-3 gap-6 mb-8">
+            
+            <!-- Answer Key Box -->
+            <div id="answer-keys" class="bg-white rounded shadow-sm border border-gray-300">
+                <div class="sr-box-header">Answer Key</div>
+                <div class="p-1">
+                    <a href="#" class="sr-link">UPPCS Computer Science Paper Official Key</a>
+                    <a href="#" class="sr-link">UPSSSC PET Official Provisional Key</a>
+                    <a href="#" class="sr-link">SSC Stenographer Group C & D Answer Key</a>
+                    <a href="#" class="sr-link">UGC NET Answer Key & Response Sheet</a>
+                    <a href="#" class="sr-link">Bihar Police Constable Question Paper & Key</a>
+                    <a href="#" class="sr-more">View More Answer Keys >></a>
+                </div>
+            </div>
+
+            <!-- Syllabus Box -->
+            <div id="syllabus" class="bg-white rounded shadow-sm border border-gray-300">
+                <div class="sr-box-header">Syllabus</div>
+                <div class="p-1">
+                    <a href="#" class="sr-link">UPSSSC Lekhpal Updated Exam Pattern & Syllabus</a>
+                    <a href="#" class="sr-link">UPPSC PCS CS Optional Detailed Syllabus</a>
+                    <a href="#" class="sr-link">JE (Polytechnic) UP Group A to K Syllabus</a>
+                    <a href="#" class="sr-link">SSC MTS & Havaldar Pattern & Syllabus</a>
+                    <a href="#" class="sr-link">Railway RPF Constable / SI Exam Pattern</a>
+                    <a href="#" class="sr-more">View More Syllabus >></a>
+                </div>
+            </div>
+
+            <!-- Admission Box -->
+            <div id="admission" class="bg-white rounded shadow-sm border border-gray-300">
+                <div class="sr-box-header">Admission</div>
+                <div class="p-1">
+                    <a href="#" class="sr-link">JE (Polytechnic) UP Online Counseling 2026</a>
+                    <a href="#" class="sr-link">NTA CUET UG / PG Admission Online Form</a>
+                    <a href="#" class="sr-link">UP B.Ed Joint Entrance Exam Counseling</a>
+                    <a href="#" class="sr-link">UP DElEd (BTC) 2026 Online Registration</a>
+                    <a href="#" class="sr-link">IGNOU B.Ed / OPENMAT Entrance Exam Form</a>
+                    <a href="#" class="sr-more">View More Admissions >></a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ROW 3: Certificate Verification | Important Services -->
+        <div class="grid md:grid-cols-2 gap-6">
+            
+            <!-- Certificate Verification Box -->
+            <div class="bg-white rounded shadow-sm border border-gray-300">
+                <div class="sr-box-header">Certificate Verification</div>
+                <div class="p-1">
+                    <a href="#" class="sr-link">UP Caste, Income, Domicile Certificate Online Check</a>
+                    <a href="#" class="sr-link">NTA Verification Certificate with QR Code</a>
+                    <a href="#" class="sr-link">CCC / O Level Certificate Online Verification</a>
+                    <a href="#" class="sr-link">UP Scholarship Digital Signature Verification</a>
+                    <a href="#" class="sr-more">View More Certificates >></a>
+                </div>
+            </div>
+
+            <!-- Important Links Box -->
+            <div id="important" class="bg-white rounded shadow-sm border border-gray-300">
+                <div class="sr-box-header">Important Services & Tools</div>
+                <div class="p-1">
+                    <a href="#" class="sr-link">UP Scholarship Online Form & Status Tracking</a>
+                    <a href="#" class="sr-link">Online Voter ID Card Apply & Voter List Search</a>
+                    <a href="#" class="sr-link">Pan Card Online Form & Link with Aadhaar</a>
+                    <a href="#" class="sr-link">Aadhaar Card Download & Update Address Online</a>
+                    <a href="#" class="sr-more">View More Important Tools >></a>
+                </div>
+            </div>
+
+        </div>
+
     </main>
 
-    <footer class="bg-black text-white text-center py-4 mt-8">
-        <p class="text-sm">© 2026 Sarkari Job Portal. Disclaimer: This is a demo template.</p>
+    <!-- Footer -->
+    <footer class="bg-black text-white text-center py-6 mt-12 border-t-2 border-red-700">
+        <p class="font-bold text-sm md:text-base">Sarkari Job Portal - India's No. 1 Govt Jobs & Exam Portal</p>
+        <p class="text-xs text-gray-400 mt-2">© 2026 Sarkari Job Portal. All rights reserved.</p>
     </footer>
 
 </body>
